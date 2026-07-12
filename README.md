@@ -14,7 +14,7 @@ The Automated Driver Drowsiness Detection and Risk Mitigation System is an AI an
 ## Getting Started
 
 1. Clone this repository
-2. Install required Python libraries
+2. Install required Python libraries: pip install opencv-python mediapipe
 3. Open the `.ino` file in Arduino IDE and install the ESP32 board package (via Board Manager) if not already installed
 4. Connect the hardware components as per the circuit/block diagram
 5. Update your Wi-Fi credentials and Arduino IoT Cloud / Twilio API keys in the code

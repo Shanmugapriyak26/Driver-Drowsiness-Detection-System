@@ -1,8 +1,26 @@
 # Automated Driver Drowsiness Detection and Risk Mitigation System Using AI
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=Arduino&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat&logo=opencv&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Overview
 
 The Automated Driver Drowsiness Detection and Risk Mitigation System is an AI and IoT-based solution designed to improve road safety by detecting driver fatigue in real time. The system continuously monitors the driver's face through a camera and identifies signs of drowsiness using computer vision techniques. When drowsiness is detected, the system immediately activates alerts, slows down the vehicle prototype, sends emergency notifications, and shares the driver's live GPS location.
+
+---
+
+## Getting Started
+
+1. Clone this repository
+2. Install required Python libraries
+3. Open the `.ino` file in Arduino IDE and install the ESP32 board package (via Board Manager) if not already installed
+4. Connect the hardware components as per the circuit/block diagram
+5. Update your Wi-Fi credentials and Arduino IoT Cloud / Twilio API keys in the code
+6. Upload the Arduino code to the ESP32 board
+7. Run the Python detection script on your computer with the camera connected
+8. Monitor alerts via the Arduino IoT Cloud dashboard, SMS, and Email notifications
 
 ---
 
